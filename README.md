@@ -29,45 +29,14 @@ An intelligent web application that uses Natural Language Processing (NLP) to cl
 
 ---
 
-## 🔧 Setup and Installation
+## 📂 Files Included
 
-Follow these steps to run the project on your local machine.
-
-**1. Clone the repository:**
-```bash
-git clone [https://github.com/your-username/news-classifier.git](https://github.com/your-username/news-classifier.git)
-cd news-classifier
-```
-
-**2. Create and activate a virtual environment:**
-```bash
-# For Windows
-python -m venv venv
-venv\Scripts\activate
-
-# For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-```
-
-**3. Install the required dependencies:**
-```bash
-pip install -r requirements.txt
-```
-*This will also download necessary NLTK data like 'stopwords' and 'punkt'.*
-
-**4. Generate the Model File:**
-- Open and run all the cells in the **`model.ipynb`** Jupyter Notebook.
-- This will process the `bbc-text.csv` dataset and create two essential files: `vectorizer.pkl` and `model.pkl`.
-
-**5. Run the Flask Application:**
-```bash
-python app.py
-```
-
-**6. Open your browser:**
-- Navigate to `http://127.0.0.1:5000` to see the application live!
-
+- `README.md` – This file
+- `bbc-text.csv` – The dataset used
+- `model.ipynb` – Python Notebook for model training
+- `app.py` – Python File for flask
+- `templates/index.html` – HTML file
+  
 ---
 
 ## 📁 Project Structure
